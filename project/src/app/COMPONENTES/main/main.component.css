@@ -1,0 +1,20 @@
+
+  /*Sections*/
+  section {
+    margin: 1em 0;
+  }
+  
+  section h1 {
+    text-transform: uppercase;
+  }
+  
+  hr {
+    border-color: #d3d3d3;
+    border-style: dashed;
+  }
+  
+  .vertical {
+    width: 0;
+    height: 10px;
+  }
+  
