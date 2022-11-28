@@ -1,73 +1,27 @@
-![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
+# TemplateCopy
 
-# LAB | Angular Intro
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
 
-## Introduction
+## Development server
 
-In this lab, you'll continue exploring the basics of how to use Angular and will set the foundation for bigger, more complicated projects.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-Let's begin!
+## Code scaffolding
 
-## Setup
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-- Fork this repo
+## Build
 
-- Clone this repo
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-- Open the LAB and start:
+## Running unit tests
 
-  ```bash
-  $ cd lab-vue-basics
-  $ npm install
-  $ npm run dev
-  ```
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
+## Running end-to-end tests
 
-## Submission
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-- Upon completion, run the following commands:
+## Further help
 
-  ```bash
-  git add .
-  git commit -m "done"
-  git push origin main
-  ```
-
-- Create a Pull Request so that your TAs can check your work.
-
-
-<!-- ## Getting Started -->
-
-## Instructions
-
-### Iteration 1 | Get HTML template
-
-For this lab, you'll have to download the following HTML template ([asperion-html5-template](https://github.com/ironhack-labs/lesson-code-java-lab-7.02-template)).
-
-### Iteration 2 | Create a new Angular project
-
-Pretty straight forward. If needed, reference the Student Portal or class materials.
-
-### Iteration 3 | Setup
-
-In this iteration, you'll import all the CSS and JS from the downloaded template and add it globally in your project.
-
-### Iteration 4 | HTML to components
-
-Next, separate the content of the `index.html` into different components and replicate the page on your Angular project (ignore the navigation links and functionalities).
-
-### Iteration 5 | Events (Alert message)
-
-Using event binding override the "more" button and display an alert message when the button is clicked.
-
-### Iteration 6 | Events (Warning message)
-
-When you try to copy any of the titles, display a warning message.
-
-<br>
-
-Sounds good? Let's get started!
-
-<br>
-
-Happy coding! :heart:
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
