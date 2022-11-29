@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./upcoming-events.component.css']
 })
 export class UpcomingEventsComponent {
+  displayAlert():void {
+  alert("Yo!")
+}
 
 }

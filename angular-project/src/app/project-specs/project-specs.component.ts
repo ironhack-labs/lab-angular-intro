@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./project-specs.component.css']
 })
 export class ProjectSpecsComponent {
-
+  displayAlert():void {
+    alert("Yo!")
+  }
 }

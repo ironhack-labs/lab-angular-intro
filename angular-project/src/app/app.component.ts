@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-project';
+  constructor(){}
+
+  displayAlert():void {
+    alert("Yo!")
+  }
 }
