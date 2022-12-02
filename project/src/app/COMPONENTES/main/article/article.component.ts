@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class ArticleComponent {
 
+  onClick(){
+    alert('You have clicked the button');
+  }
+ 
 }
