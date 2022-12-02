@@ -6,9 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./article.component.css']
 })
 export class ArticleComponent {
+  
 
+  
   onClick(){
     alert('You have clicked the button');
   }
- 
+ onCopy(){
+  console.log('dont')
+  alert('Dont copy me!')
+ }
 }
